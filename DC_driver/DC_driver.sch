@@ -372,7 +372,7 @@ P35A
 Text Label 3050 2250 0    60   ~ 0
 P38A
 Text Label 1800 2950 0    60   ~ 0
-A1
+A1A
 Text Label 3050 2050 0    60   ~ 0
 P40A
 Text Label 5100 3600 0    60   ~ 0

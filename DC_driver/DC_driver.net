@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/luisherceporras/Desktop/LHP/Proyectos/Lab Control/ball-and-beam/ball-and-beam/DC_driver/DC_driver.sch")
-    (date "2016 February 21, Sunday 18:42:53")
+    (date "2016 February 26, Friday 10:34:31")
     (tool "Eeschema 4.0.0-rc2-1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -321,10 +321,10 @@
   (libraries
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical drivers)
-      (uri /Users/luisherceporras/Desktop/LHP/Librerias/drivers.lib))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
+    (library (logical drivers)
+      (uri /Users/luisherceporras/Desktop/LHP/Librerias/drivers.lib))
     (library (logical transistors_ext)
       (uri /Users/luisherceporras/Desktop/LHP/Librerias/transistors_ext.lib)))
   (nets
@@ -338,9 +338,9 @@
       (node (ref JP5) (pin 1)))
     (net (code 3) (name /A1)
       (node (ref JP8) (pin 2))
-      (node (ref J3) (pin 10))
       (node (ref D2) (pin 11)))
     (net (code 4) (name /A1A)
+      (node (ref J3) (pin 10))
       (node (ref JP8) (pin 1)))
     (net (code 5) (name /P38)
       (node (ref JP4) (pin 2))
